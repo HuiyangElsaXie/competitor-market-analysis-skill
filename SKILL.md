@@ -5,6 +5,8 @@ description: Compare competitors and alternatives using current, attributable ev
 
 # Competitor and Market Analysis
 
+Optional first-use orientation: [LanternDesk synthetic comparison](examples/fictional-example.md) shows a matrix, source ledger, unknown features and qualified recommendation. Use the [brief template](references/output-template.md) as needed. Synthetic prices and claims are not market evidence; the example need not be reread for every task. Keep this root folder's supporting resources and notices.
+
 Modified adaptation, 2026-10-16: based on Module 0 of Ishwar's Apache-2.0 Marketing Research Sourcebook. Changes include narrower scope, provenance-led intake, evidence separation, comparable pricing, and hypothesis-based gaps. See THIRD_PARTY_NOTICES.md and licenses/UPSTREAM-LICENSE.txt. Copyright 2026 Ishwar applies to adapted upstream material.
 
 ## Intake and permissions
