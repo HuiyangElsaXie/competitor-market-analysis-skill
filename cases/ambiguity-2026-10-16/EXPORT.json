@@ -1,0 +1,74 @@
+{
+  "case": {
+    "scenario": "ambiguous-attribution-and-integration",
+    "synthetic": true,
+    "configured_model": "gpt-6.1-sol",
+    "base_commit": "3d8b4d64d123d3dbd08d9354e7bada0df321b024",
+    "tested_skill_sha256": "950bfc108b97e1f4d25b3e0367f52a85ed31385292a0d9658b3b5a5f4780f2d0",
+    "network_and_paid_api": "prohibited",
+    "business_tools": "none; supplied-material desk review only"
+  },
+  "path_redaction_only": true,
+  "files": [
+    {
+      "path": "brief.md",
+      "original_sha256": "d6395636389869c1dfab57b6946155f610122b93b302da9cc417a478d1a72643",
+      "exported_sha256": "d6395636389869c1dfab57b6946155f610122b93b302da9cc417a478d1a72643",
+      "local_path_redacted": false
+    },
+    {
+      "path": "case.json",
+      "original_sha256": "58021d68475a86b1dde439f06ce99c7e0dcde3972dbb50a7b172a8cca5474485",
+      "exported_sha256": "58021d68475a86b1dde439f06ce99c7e0dcde3972dbb50a7b172a8cca5474485",
+      "local_path_redacted": false
+    },
+    {
+      "path": "commands.json",
+      "original_sha256": "5a2f8caee040b0237e8182bb581a2455648dcdea3eba7f235f01d11c7787391b",
+      "exported_sha256": "c928cf4148cfb2444f39298543caee801deb157c1818738839c7d2a9ed5d35af",
+      "local_path_redacted": true
+    },
+    {
+      "path": "final.md",
+      "original_sha256": "11be517f7b742d1cbeeb6dbad2c5faf11f4402558028c54a4a8a345b0a203e28",
+      "exported_sha256": "11be517f7b742d1cbeeb6dbad2c5faf11f4402558028c54a4a8a345b0a203e28",
+      "local_path_redacted": false
+    },
+    {
+      "path": "raw-response.md",
+      "original_sha256": "f60a0884abe07f7c9837b5eb3b901b83f011e8d3200f3c2408c27a4e7836c2ce",
+      "exported_sha256": "f60a0884abe07f7c9837b5eb3b901b83f011e8d3200f3c2408c27a4e7836c2ce",
+      "local_path_redacted": false
+    },
+    {
+      "path": "review-commands.json",
+      "original_sha256": "e33229d9a8a3dec63bde41270048908abfb5c8ce26918835528c4ccf456997e8",
+      "exported_sha256": "844f223a050caf97e5a53e05e87ffec0af0667ffde55ce62ffccb8da8a19a0ac",
+      "local_path_redacted": true
+    },
+    {
+      "path": "review.md",
+      "original_sha256": "1820580c2ab4773b8e0b091a65a3c4a61ae4ed878bc2d49327489c3da8ba132b",
+      "exported_sha256": "1820580c2ab4773b8e0b091a65a3c4a61ae4ed878bc2d49327489c3da8ba132b",
+      "local_path_redacted": false
+    },
+    {
+      "path": "self-review-v1.md",
+      "original_sha256": "cd3f52d9e3bd0a5a32c3f5fe130c95a44c76ccb43aea038e487fdfec44cf6de2",
+      "exported_sha256": "cd3f52d9e3bd0a5a32c3f5fe130c95a44c76ccb43aea038e487fdfec44cf6de2",
+      "local_path_redacted": false
+    },
+    {
+      "path": "self-review.md",
+      "original_sha256": "5ecd4002876a4db958d1c854a9e6aed850a345fae1c76f447a07a45ea700153c",
+      "exported_sha256": "5ecd4002876a4db958d1c854a9e6aed850a345fae1c76f447a07a45ea700153c",
+      "local_path_redacted": false
+    },
+    {
+      "path": "tool-availability.md",
+      "original_sha256": "584a0f49d59f4448eeec04f74e8b0e5a3af2b3f5ae9b34952e0abae5381c7f8c",
+      "exported_sha256": "d50381a3706c9e30bbde873c23e02e7e3bdf7f94c4d64bc66d0470405369845b",
+      "local_path_redacted": true
+    }
+  ]
+}

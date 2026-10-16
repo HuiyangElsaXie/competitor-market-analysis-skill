@@ -1,0 +1,16 @@
+{
+  "record_type": "Retrospective reconstruction from actual visible review tool calls; not native telemetry",
+  "cwd": "{TASK}",
+  "events": [
+    {"sequence":1,"tool":"functions.exec -> tools.exec_command","cmd":"Get-Content -Encoding UTF8 -LiteralPath '{CASE}\\raw-response.md'; Get-Content -Encoding UTF8 -LiteralPath '{CASE}\\commands.json'; Get-Content -Encoding UTF8 -LiteralPath '{CASE}\\tool-availability.md'","exit_status":0},
+    {"sequence":2,"tool":"functions.exec -> tools.apply_patch","operation":"Add self-review.md; initial no-repair conclusion","status":"Returned normally with empty object; no numeric exit code"},
+    {"sequence":3,"tool":"functions.exec -> tools.exec_command","cmd":"Copy-Item -LiteralPath '{CASE}\\raw-response.md' -Destination '{CASE}\\final.md'; Get-FileHash -Algorithm SHA256 -LiteralPath '{CASE}\\raw-response.md','{CASE}\\final.md' | Format-List Path,Hash","exit_status":0,"result":"Both hashes initially F60A0884ABE07F7C9837B5EB3B901B83F011E8D3200F3C2408C27A4E7836C2CE; final.md was subsequently corrected"},
+    {"sequence":4,"tool":"functions.exec -> tools.exec_command","cmd":"& '{PYTHON}' -X utf8 -c \"import pathlib,json; print(json.dumps(pathlib.Path(r'{CASE}\\brief.md').read_text(encoding='utf-8'),ensure_ascii=True))\"","exit_status":0,"result":"Read complete brief as JSON-escaped Unicode, resolving input rendering problem and revealing overlooked no-separately-purchased-connector preference"},
+    {"sequence":5,"tool":"functions.exec -> tools.apply_patch","operation":"Update final.md in three paragraphs and update self-review.md to disclose substantive correction","status":"Returned normally with empty object; no numeric exit code"},
+    {"sequence":6,"tool":"functions.exec -> tools.apply_patch","operation":"Add self-review-v1.md from the exact original visible patch content, and add review-commands.json","status":"Submitted; actual completion is supplied by corresponding tool result","note":"v1 was reconstructed from the original tool patch after self-review.md had already been revised; it was not a pre-revision filesystem copy"}
+  ],
+  "preserved": ["raw-response.md", "commands.json", "tool-availability.md"],
+  "prior_loaded_context_used": ["SKILL.md", "references/output-template.md", "brief.md", "case.json"],
+  "not_read": ["review.md", "parent harness", "expected answers", "other scenarios"],
+  "not_executed": ["network", "browser", "connectors", "paid APIs", "business tools", "Git mutations", "software installation", "workflow tests"]
+}

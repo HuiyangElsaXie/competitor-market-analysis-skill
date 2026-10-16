@@ -25,3 +25,5 @@ Adapted from [ishwarjha/claude-marketing-research-skill](https://github.com/ishw
 输出模板在 references/；examples/ 中全部为虚构演示，不是真实案例。真实观察、分析推断和待验证假设必须分开。不会自动安装集成、读取凭据、联系客户、付费调研或发布内容。
 
 上游模块采用 Apache-2.0；来源、固定提交、修改说明和完整许可文本已保留。原创部分尚未选择仓库级许可证。质量检查限于结构与虚构走读，不代表真实营销成效已验证。
+
+Current behavior evidence: [2026-10-16 synthetic ambiguity check](cases/ambiguity-2026-10-16/README.md), including first answer, tool record, reviews and limitations. / 本轮合成歧义案例与实际执行记录。

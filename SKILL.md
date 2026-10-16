@@ -17,6 +17,8 @@ Do not install integrations, request credentials, contact customers, submit form
 ## Evidence rules
 Separate observed evidence, interpretation, and untested hypothesis. For every important claim record a source ID, exact URL or supplied-document locator, publication date when visible, and access date. Mark missing dates unknown. Search snippets are discovery leads, not verified quotes. Never invent interviews, respondents, quotes, market sizes, pricing, statistics, or validation results. Distinguish absence of evidence from evidence of absence. Keep quotations short and attributable. Explain contradictory evidence and sampling bias.
 
+Do not assign an omitted actor, capability, plan, market, or pricing scope to a particular competitor. Preserve ambiguous attribution as unknown. Distinguish a competitor's native capability from a third-party integration or partner-delivered feature; state who provides each part when the source does. Keep source marketing claims separate from verified facts, and retain relevant counterevidence rather than resolving conflicts by assumption.
+
 ## Workflow
 1. Establish the decision, product, audience, geography, and comparison date. Reuse existing positioning and product context with attribution. Ask only if a missing target category or audience would materially change which competitors qualify.
 2. Select 3–5 relevant alternatives by customer job and buying situation, explaining inclusion. Include a manual/status-quo alternative when meaningful. Direct competitors, adjacent substitutes, and aspirational examples must be labeled separately. If fewer can be verified, compare fewer.

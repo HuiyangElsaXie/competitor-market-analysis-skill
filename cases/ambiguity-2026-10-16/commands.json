@@ -1,0 +1,40 @@
+{
+  "record_type": "Post-execution reconstruction from this agent's visible tool calls; not a native tool export",
+  "cwd": "{TASK}",
+  "events": [
+    {
+      "sequence": 1,
+      "tool": "functions.exec -> tools.exec_command",
+      "shell": "powershell",
+      "cmd": "Get-Content -LiteralPath '{REPO}\\SKILL.md'; Get-Content -LiteralPath '{CASE}\\brief.md'",
+      "exit_status": 0
+    },
+    {
+      "sequence": 2,
+      "tool": "functions.exec -> tools.exec_command",
+      "shell": "powershell",
+      "cmd": "$OutputEncoding = [System.Text.UTF8Encoding]::new(); Get-Content -Encoding UTF8 -LiteralPath '{CASE}\\brief.md'; Get-Content -Encoding UTF8 -LiteralPath '{CASE}\\case.json'; Get-Content -Encoding UTF8 -LiteralPath '{REPO}\\references\\output-template.md'; Get-FileHash -Algorithm SHA256 -LiteralPath '{REPO}\\SKILL.md'",
+      "exit_status": 0,
+      "note": "Chinese prose in the brief rendered with replacement/misdecoded characters in both reads; source IDs and English evidence excerpts were readable. No source files were modified."
+    },
+    {
+      "sequence": 3,
+      "tool": "functions.exec -> tools.apply_patch",
+      "operation": "Add File",
+      "path": "{CASE}\\raw-response.md",
+      "argument_summary": "Wrote the first completed Chinese desk-review answer. Patch body is the unchanged contents of raw-response.md.",
+      "tool_result": {},
+      "exit_status": "No numeric exit status supplied; tool returned normally"
+    },
+    {
+      "sequence": 4,
+      "tool": "functions.exec -> tools.apply_patch",
+      "operation": "Add File",
+      "paths": ["{CASE}\\commands.json", "{CASE}\\tool-availability.md"],
+      "argument_summary": "Saved this reconstructed execution ledger and tool-availability record in one patch.",
+      "exit_status": "Recorded at submission; actual completion is shown by the corresponding tool response, not asserted in advance"
+    }
+  ],
+  "not_executed": ["network", "browser", "connectors", "paid APIs", "business tools", "Git mutations", "software installation", "Python", "self-review", "answer repair"],
+  "raw_response_policy": "First completed answer saved before review and not reread or repaired in this turn."
+}

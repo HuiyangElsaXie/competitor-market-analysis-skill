@@ -1,0 +1,9 @@
+{
+  "scenario": "ambiguous-attribution-and-integration",
+  "synthetic": true,
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "3d8b4d64d123d3dbd08d9354e7bada0df321b024",
+  "tested_skill_sha256": "950bfc108b97e1f4d25b3e0367f52a85ed31385292a0d9658b3b5a5f4780f2d0",
+  "network_and_paid_api": "prohibited",
+  "business_tools": "none; supplied-material desk review only"
+}
