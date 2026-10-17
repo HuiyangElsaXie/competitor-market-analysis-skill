@@ -1,0 +1,13 @@
+{
+  "repo": "competitor-market-analysis-skill",
+  "scenario": "attribution",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "88a47a6aa32155d593083bda2185048cb4fc1078",
+  "skill_entry": "SKILL.md",
+  "loaded_rule_sha256": {
+    "SKILL.md": "7a0ce4f928a6b38ae56bf38eca29a80d3f11c5571d364c9298111a8d4532ac60",
+    "references/output-template.md": "05f61cebba6a3f6958d2c1e963978aa8644799a50e646c8a02520a0122c012d8"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}

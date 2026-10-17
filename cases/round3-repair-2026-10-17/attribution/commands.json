@@ -1,0 +1,24 @@
+{
+  "record_type": "Retrospective reconstruction of actual tool events in this turn; no unexecuted calls represented as executed",
+  "events": [
+    {
+      "order": 1,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python -X utf8 read SKILL.md and case brief.md; JSON ASCII output",
+      "outcome": "exit 0; both texts returned"
+    },
+    {
+      "order": 2,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python -X utf8 read references/output-template.md; JSON ASCII output",
+      "outcome": "exit 0; template returned"
+    },
+    {
+      "order": 3,
+      "tool": "functions.exec -> exec_command",
+      "operation": "Python -X utf8 write first completed answer raw-response.md; read loaded skill/reference bytes for SHA256; write tool-availability.md and commands.json",
+      "outcome": "Writes and hashing performed by this script; completion confirmed by successful tool exit"
+    }
+  ],
+  "answer_policy": "First completed answer saved unchanged; no self-review or repair performed."
+}

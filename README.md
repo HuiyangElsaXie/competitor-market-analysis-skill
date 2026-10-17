@@ -27,3 +27,5 @@ Adapted from [ishwarjha/claude-marketing-research-skill](https://github.com/ishw
 上游模块采用 Apache-2.0；来源、固定提交、修改说明和完整许可文本已保留。原创部分尚未选择仓库级许可证。质量检查限于结构与虚构走读，不代表真实营销成效已验证。
 
 Current behavior evidence: [2026-10-16 synthetic ambiguity check](cases/ambiguity-2026-10-16/README.md), including first answer, tool record, reviews and limitations. / 本轮合成歧义案例与实际执行记录。
+
+Current targeted checks: [2026-10-17 targeted rule repairs and independent first-answer evidence](cases/round3-repair-2026-10-17/README.md). Initial partial results and later checks are reported separately. / 本轮规则修复、独立首稿及审核记录。

@@ -7,8 +7,10 @@ Product, target job/audience, geography, comparison date, reused context with pr
 The most useful positioning hypothesis, supporting evidence, counterevidence, and what would change the recommendation.
 
 ## Comparable landscape
-| Alternative / type | Segment | Vendor promise | Relevant capabilities | Price / currency / billing / plan limits | Evidence IDs | Unknowns |
-|---|---|---|---|---|---|---|
+| Alternative / type | Segment and source or assumption | Vendor promise | Relevant capabilities | Sender / channel / automation / payer | Price / currency / billing / plan limits | This alternative's evidence IDs | Unknowns |
+|---|---|---|---|---|---|---|---|
+
+Attribution check: mark each unspecified sender, channel, automation and payer unknown. Passive wording is not an actor. Do not transfer another row's features, prices or audiences into this row.
 
 ## Positioning opportunities
 For up to three: observed overlap or gap; source IDs; inference about customer relevance; proposed claim; proof available from our product; missing validation; risk of imitation or unsupported promise.
