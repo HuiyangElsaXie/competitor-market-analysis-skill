@@ -29,3 +29,5 @@ Adapted from [ishwarjha/claude-marketing-research-skill](https://github.com/ishw
 Current behavior evidence: [2026-10-16 synthetic ambiguity check](cases/ambiguity-2026-10-16/README.md), including first answer, tool record, reviews and limitations. / 本轮合成歧义案例与实际执行记录。
 
 Current targeted checks: [2026-10-17 targeted rule repairs and independent first-answer evidence](cases/round3-repair-2026-10-17/README.md). Initial partial results and later checks are reported separately. / 本轮规则修复、独立首稿及审核记录。
+
+[2026-10-17 minimal closeout: new first-answer case and independent audit](cases/round4-closeout-2026-10-17/README.md). Scope and limitations are recorded with the case.

@@ -1,0 +1,13 @@
+{
+  "repo": "competitor-market-analysis-skill",
+  "scenario": "channel-and-pricing-scope",
+  "base_commit": "2eb6fd1b05cb27f3f8b3f054a170a8172ec4b9df",
+  "configured_model": "gpt-6.1-sol",
+  "entry": "SKILL.md",
+  "rule_sha256": {
+    "SKILL.md": "7a559365d60c1273608dc384ce4072b313218f6104902bcdf799c9f9810845d0",
+    "references/output-template.md": "92b8ed6f47ac1b6386c62750c2aaa2b8133cc0d27a353e56aa9507d9edaf025c"
+  },
+  "brief_authored_by": "root, separately from executor",
+  "external_business_tools_and_paid_api": "prohibited"
+}
