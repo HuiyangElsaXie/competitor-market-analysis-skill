@@ -8,6 +8,12 @@ A personal-use marketing workflow skill to compare alternatives and develop evid
 ### Use
 Give an AI agent SKILL.md and a short business brief: product, audience, market, decision, and any existing evidence. Example request: “Use this skill to compare the supplied scheduling alternatives for solo tutors. Align currency, billing unit and plan limits, mark unknown features, and recommend one positioning question to investigate.” Return a comparable landscape, dated source ledger, qualified positioning hypothesis, counterevidence and the next verification step. The skill itself grants no account access. Public web or connected read-only tools are optional; supplied-material analysis works offline with limitations disclosed.
 
+### From sources to a comparison
+1. **You** define the buying decision, audience, market and permitted competitor material.
+2. **AI** selects comparable alternatives and builds source-linked capability/pricing rows; unknowns and conflicting claims stay visible.
+3. **You** clarify intended use and disputed facts where possible, and judge whether the proposed differentiation is credible for your own product.
+4. **AI** delivers the landscape, source ledger, qualified positioning hypotheses and next check for your review; vendor claims remain distinct from verified outcomes.
+
 ### Contents
 - SKILL.md: agent workflow and evidence safeguards
 - references/output-template.md: reusable deliverable structure
@@ -21,6 +27,12 @@ Adapted from [ishwarjha/claude-marketing-research-skill](https://github.com/ishw
 这是个人使用的营销工作流技能，用于比较替代方案，形成有证据依据的定位假设。项目会随实践持续更新，但不承诺固定更新频率、维护服务或研究效果。目前是轻量首版。
 
 示例请求：“请用 [SKILL.md](SKILL.md) 比较我提供的导师排课替代方案，核对计费单位、币种与限制，未知功能不要判为缺失。”交付可比矩阵、带日期来源台账、定位假设、反证和下一步核验。先复用获准上下文，只追问关键缺口；没有浏览工具就说明仅分析已给资料。
+
+### 从资料到竞品简报
+1. **你**说明购买决策、受众、市场及可使用的竞品资料。
+2. **AI**选择可比替代方案，逐项关联功能、价格与来源，保留未知和冲突。
+3. **你**按实际用途澄清争议，并判断自身产品能否支撑拟议差异化。
+4. **AI**交付矩阵、来源台账、有限定的定位假设及下一步核验，供你审阅；不把厂商主张当已验证效果。
 
 输出模板在 references/；examples/ 中全部为虚构演示，不是真实案例。真实观察、分析推断和待验证假设必须分开。不会自动安装集成、读取凭据、联系客户、付费调研或发布内容。
 
